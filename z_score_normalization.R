@@ -24,7 +24,5 @@ zsn_matrix <- function(data_matrix) {
       result <- z_score_normalization(value, row_mean, row_std)
       print(result)
     }
-    
-    print("pass")
   })
 }
