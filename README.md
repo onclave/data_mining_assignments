@@ -17,4 +17,11 @@
 			<li>run `mmn_array(data_array, 100, 500, 0, 1)` where the function is defined as `mmn_array(data_array, current_min, current_max, new_min, new_max)`</li>
 		</ul>
 	</li>
+	<li>Association Rule Mining (ARM):
+		<ul>
+			<li>from cli, go to the directory containing `AssociationRuleMining.java`.</li>
+			<li>run the command <code>javac AssociationRuleMining.java</code></li>
+			<li>a `AssociationRuleMining.class` file will be generated</li>
+			<li>next, run <code>java AssociationRuleMining</code></li>
+			<li>follow the prompts to run the code to calculate `support` and `confidence` of a rule.</li>
 </ul>
