@@ -119,7 +119,7 @@ public class AssociationRuleMining {
     private static void viewRule() {
         
         P("Rule:");
-        for(String ant : antecedent) { if(!ant.equals("-1")) P("(" + ant + ")", false); }
+        for(String ant : antecedent) { if(!ant.equals("-1")) P("(" + ant + ")", false); } P(" --> ", false);
         for(String con : consequent) { if(!con.equals("-1")) P("(" + con + ")", false); }
         P("\n\n");
     }
